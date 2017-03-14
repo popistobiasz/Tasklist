@@ -8,7 +8,7 @@ namespace warszaty
 		{
 			InitializeComponent();
 
-			MainPage = new TaskListPage();
+			MainPage = new warszatyPage();
 		}
 
 		protected override void OnStart()
