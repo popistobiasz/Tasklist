@@ -123,4 +123,15 @@
   <Import Project="..\packages\Fody.1.29.4\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\dotnet\Fody.targets')" />
   <Import Project="..\packages\Realm.Database.1.1.0\build\Realm.Database.targets" Condition="Exists('..\packages\Realm.Database.1.1.0\build\Realm.Database.targets')" />
   <Import Project="..\packages\Realm.1.1.0\build\Realm.targets" Condition="Exists('..\packages\Realm.1.1.0\build\Realm.targets')" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <VersionControlPolicy inheritsSet="Mono">
+            <CommitMessageStyle Header="" Indent="" FirstFilePrefix="* " FileSeparator=":&#xA;* " LastFilePostfix=": " LineAlign="2" InterMessageLines="1" IncludeDirectoryPaths="False" Wrap="True" />
+          </VersionControlPolicy>
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>
