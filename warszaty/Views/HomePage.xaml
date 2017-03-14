@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="warszaty.HomePage">
+	<StackLayout>
+		<Button x:Name="BackButton" Text="Back" Clicked="BackButton_Clicked" HorizontalOptions="Start" VerticalOptions="Start" />
+		<Label HorizontalOptions="CenterAndExpand" Text="Dodawanie tasaka" />
+		<Entry x:Name="TaskEntry" />
+		<Button x:Name="AddTask" Text="Add Task" Clicked="AddTask_Clicked" />
+		
+	</StackLayout>
+</ContentPage>
